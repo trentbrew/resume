@@ -32,6 +32,10 @@ main {
   gap: 64px;
 }
 
+main div:nth-child(1) {
+  min-width: 150px;
+}
+
 main ul {
   list-style: none;
   margin: 0;
