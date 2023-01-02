@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 64px;
+  background: #111;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page {
+  padding: 64px;
+  background: #222;
+  border-radius: 8px;
+  max-width: 800px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 64px;
+}
+
+main {
+  display: flex;
+  gap: 64px;
+}
+
+main ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+main li {
+  display: flex;
+  gap: 64px;
+  margin-bottom: 64px;
+}
+
+main span {
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+main p {
+  max-width: 400px;
+  margin: 0;
+  line-height: 1.5;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+}
+
+footer li {
+  color: black;
+  background: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  max-width: fit-content;
+  margin: 4px;
+  font-size: 14px;
+  font-weight: medium;
+}
+
+h1 {
+  font-size: 42px;
+  margin-bottom: 8px;
+  margin-top: 0px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 4px;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  opacity: 0.75;
+}
+
+.contact {
+  margin-bottom: 4px;
+}
